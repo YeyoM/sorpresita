@@ -1,6 +1,7 @@
 import classes from '../styles/Home.module.css'
 import ReactCanvasConfetti from 'react-canvas-confetti'
 import { useEffect, useState, useCallback, useRef } from 'react'
+import Head from 'next/head'
 
 const canvasStyles = {
   position: "fixed",
@@ -73,6 +74,10 @@ export default function Sorpresa() {
 
   return (
     <div className={classes.sorpresa} >
+      <Head>
+        <title>Feliz cum</title>
+        <link rel="icon" href="/cum.svg" />
+      </Head>
       <h1 className={classes.cum}>Feliz cum!</h1>
       <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles} />
     </div>

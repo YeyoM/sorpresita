@@ -10,6 +10,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet" />
+        <link rel="icon" href="/cum.svg" />
       </Head>
       <Link href="/sorpresa">Click aqui para doxeo</Link>
     </div>
